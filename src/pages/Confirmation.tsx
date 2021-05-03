@@ -24,13 +24,7 @@ export function Confirmation() {
     const navigation = useNavigation();
     const routes = useRoute();
 
-    const {
-        title,
-        subtitle,
-        buttonTitle,
-        icon,
-        nextScreen,
-    } = routes.params as Params;
+    const { title, subtitle, icon, nextScreen } = routes.params as Params;
 
     function handleMoveOn() {
         navigation.navigate(nextScreen);
@@ -44,7 +38,7 @@ export function Confirmation() {
                 <Text style={styles.title}>{title}</Text>
                 <Text style={styles.subtitle}>{subtitle}</Text>
                 <View style={styles.footer}>
-                    <Button title={buttonTitle} onPress={handleMoveOn} />
+                    <Button title="Começar" onPress={handleMoveOn} />
                 </View>
             </View>
         </SafeAreaView>
