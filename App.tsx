@@ -1,5 +1,6 @@
 import React from 'react';
 import AppLoading from 'expo-app-loading';
+
 import {
     useFonts,
     // eslint-disable-next-line camelcase
