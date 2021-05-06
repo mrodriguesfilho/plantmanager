@@ -26,4 +26,4 @@ cycle so you never let it die again.
 
 ## :memo: License
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+This project is under the MIT license. Check the file [LICENSE](LICENSE.md) for more details.
